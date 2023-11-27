@@ -105,7 +105,7 @@ end
 
 
 function main()
-    data = readdlm("pair-config-120k")[1:100,:]
+    data = readdlm("pair-config-120k")
     λ = 0.1
     ω = 0.5
 
